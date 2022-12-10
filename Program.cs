@@ -15,7 +15,7 @@ double y;
 
 x = Math.Round((b2-b1)/(k1-k2),2);
 y = Math.Round(k1*x+b1,2);
-Console.Write($"Координаты точки перечения равны ({x},{y})");
+Console.Write($"Координаты точки пересечения равны ({x},{y})");
 
 double chislo (string vv)
 {
